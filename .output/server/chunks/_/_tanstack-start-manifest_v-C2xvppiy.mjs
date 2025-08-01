@@ -1,0 +1,2 @@
+const tsrStartManifest=()=>({routes:{__root__:{filePath:"C:/00-CodeShop/00-Sandbox-II/II-111-Start-Manual-MUI/src/routes/__root.tsx",children:["/"],preloads:["/assets/main-Cm8o-_Oo.js"],assets:[]},"/":{filePath:"C:/00-CodeShop/00-Sandbox-II/II-111-Start-Manual-MUI/src/routes/index.tsx",assets:[],preloads:["/assets/index-HPxp46Xa.js"]}},clientEntry:"/assets/main-Cm8o-_Oo.js"});export{tsrStartManifest};
+//# sourceMappingURL=_tanstack-start-manifest_v-C2xvppiy.mjs.map
