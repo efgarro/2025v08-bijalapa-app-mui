@@ -5,6 +5,9 @@ import { createServerFn } from "@tanstack/react-start";
 import axios from "axios";
 import { get } from "node:http";
 
+import "../css/styles.css";
+import styles from "../css/footer.module.css";
+
 import Button from "@mui/material/Button";
 
 // const filePath = "./public/count.txt";
@@ -72,6 +75,8 @@ function Home() {
     <>
       <Button variant="contained">Hello world</Button>
       <p>Hellow {data.title}</p>
+      <h2>BijaLapa</h2>
+      <footer className={`${styles.footer_box}`}>Footer</footer>
     </>
   );
 }

@@ -1,2 +1,0 @@
-const e={"src_routes_index_tsx--getTodo_createServerFn_handler":{functionName:"getTodo_createServerFn_handler",importer:()=>import("./index-B-AaWWoT.mjs")},"src_routes_index_tsx--getServerTime_createServerFn_handler":{functionName:"getServerTime_createServerFn_handler",importer:()=>import("./index-B-AaWWoT.mjs")},"src_routes_index_tsx--getServerData_createServerFn_handler":{functionName:"getServerData_createServerFn_handler",importer:()=>import("./index-B-AaWWoT.mjs")}};export{e as default};
-//# sourceMappingURL=_tanstack-start-server-fn-manifest_v-BUtMEc9t.mjs.map
