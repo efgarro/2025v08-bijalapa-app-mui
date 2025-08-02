@@ -5,6 +5,9 @@ import { createServerFn } from "@tanstack/react-start";
 import axios from "axios";
 import { get } from "node:http";
 
+import { ThemeProvider } from "@mui/material/styles";
+import { customTheme } from "../css/customTheme";
+
 import "../css/styles.css";
 import styles from "../css/footer.module.css";
 
@@ -73,10 +76,12 @@ function Home() {
   console.log(data);
   return (
     <>
-      <Button variant="contained">Hello world</Button>
-      <p>Hellow {data.title}</p>
-      <h2>BijaLapa</h2>
-      <footer className={`${styles.footer_box}`}>Footer</footer>
+      <ThemeProvider theme={customTheme}>
+        <Button variant="contained">Hello world</Button>
+        <p>Hellow {data.title}</p>
+        <h2>BijaLapa</h2>
+        <footer className={`${styles.footer_box}`}>Footer</footer>
+      </ThemeProvider>
     </>
   );
 }
